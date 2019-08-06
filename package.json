@@ -1,0 +1,16 @@
+{
+  "name": "airiti_library_fetcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json2csv": "^4.5.2",
+    "linebyline": "^1.3.0",
+    "request": "^2.88.0"
+  }
+}

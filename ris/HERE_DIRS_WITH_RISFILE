@@ -1,0 +1,17 @@
+Before generating:
+
+ris/
+├── 全球政治評論第A期/
+│   └── communityA.ris
+└── 全球政治評論第B期/
+    └── communityB.ris
+
+Generated:
+
+ris/
+├── 全球政治評論第A期/
+│   ├── metadata.csv
+│   └── communityA.ris
+└── 全球政治評論第B期/
+    ├── metadata.csv
+    └── communityB.ris

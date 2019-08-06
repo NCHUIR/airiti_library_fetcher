@@ -6,14 +6,17 @@
 在本程式的ris資料夾中建立一個資料夾，名稱可以按照DSpaceImporter的格式命名，例如"全球政治評論第A期[99999]"，
 並移動剛剛下載的ris到該資料夾中(即"全球政治評論第A期[99999]")。
 
+![image](https://github.com/NCHUIR/airiti_library_fetcher/blob/master/img1.PNG)
+
 此時的資料夾結構如下：
 
+```
 ris/
 ├── 全球政治評論第A期[99999]/
 │   └── communityA.ris
 └── 全球政治評論第B期[100000]/
     └── communityB.ris
-
+```
 
 下載多個ris之後可以在本程式資料夾中執行指令
 ```
@@ -22,6 +25,7 @@ npm run start
 
 完成之後資料夾結構如下：
 
+```
 ris/
 ├── 全球政治評論第A期[99999]/
 │   ├── metadata.csv
@@ -29,6 +33,7 @@ ris/
 └── 全球政治評論第B期[100000]/
     ├── metadata.csv
     └── communityB.ris
+```
 
 您可以修改metadata的內容，其中content, dc.date[zh_TW]欄位會是空白的，需要手動增添。
 
